@@ -1,0 +1,15 @@
+{
+  "family": "seajs",
+  "name": "seajs-tree",
+  "version": "1.0.0",
+  "description": "A Sea.js plugin for parsing dependencies of CMD modules",
+  "keywords": ["seajs", "plugin", "tree"],
+  "author": "applezqp <qiuping.zhou@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:applezqp/seajs-tree.git"
+  },
+  "spm": {
+    "output": ["seajs-tree.js"]
+  }
+}
