@@ -18,3 +18,5 @@ seajs.tree(id, function(data){
 });
 </script>
 ```
+
+Demo: [http://applezqp.com/seajs-tree/examples/](http://applezqp.com/seajs-tree/examples/)
