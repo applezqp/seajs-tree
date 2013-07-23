@@ -18,17 +18,17 @@
     }
     
     addMeta(meta);
-    
-    var m, l = metalist.length;
-
-    for(var i = 0; i < l; i++){
-      var m = metalist.shift();
+   
+    var m, result = [];
+    for(var i = 0, l = metalist.length; i < l; i++){
+      m = metalist[i];
       if(seajs.cache[m.uri]) {
         addMeta(m);
       } else {
-        metalist.push(m);
+        result.push(m);
       }
     }
+    metalist = result; 
   }
 
   function addMeta(meta) {
@@ -70,4 +70,4 @@
   }
   
   define("seajs-combo-tree", [], {});
-})(seajs)
+})(seajs);
